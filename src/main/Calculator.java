@@ -1,7 +1,12 @@
 public class Calculator{
     public int add(int a, int b){
-        System.out.println("This is Add Method");
+        System.out.println("This is Add Method with two parameters");
         return a + b;
+    }
+
+    public int add(int a, int b, int c){
+        System.out.println("This is Add Method with three parameters");
+        return a + b + c;
     }
 
     public int sub(int a, int b){
