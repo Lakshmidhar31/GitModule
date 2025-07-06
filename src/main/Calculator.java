@@ -9,6 +9,11 @@ public class Calculator{
         return a + b + c;
     }
 
+    public int add(int a, int b, int c, int d){
+        System.out.println("This is Add Method with four parameters");
+        return a + b + c + d;
+    }
+
     public int sub(int a, int b){
         return a - b;
     }
